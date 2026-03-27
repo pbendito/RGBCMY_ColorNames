@@ -1,28 +1,214 @@
 {
   "colors": [
     {
-      "name": "Red",
-      "hex": "#FF0000"
+      "name": "Red (R)",
+      "range": [0, 0],
+      "hsb": [0, 100, 100],
+      "hex": "#FF0000",
+      "_comment": "Primary anchor"
     },
     {
-      "name": "Green",
-      "hex": "#00FF00"
+      "name": "Red Yellow (Ry)",
+      "range": [1, 15],
+      "hsb": [8, 100, 100],
+      "hex": "#FF2200",
+      "_comment": "Transition from Red toward Yellow"
     },
     {
-      "name": "Blue",
-      "hex": "#0000FF"
+      "name": "Red Yellow (RY)",
+      "range": [16, 30],
+      "hsb": [23, 100, 100],
+      "hex": "#FF6200",
+      "_comment": "Transition from Red toward Yellow"
     },
     {
-      "name": "Cyan",
-      "hex": "#00FFFF"
+      "name": "Red Yellow (YR)",
+      "range": [31, 45],
+      "hsb": [38, 100, 100],
+      "hex": "#FFA200",
+      "_comment": "Transition from Yellow toward Red"
     },
     {
-      "name": "Magenta",
-      "hex": "#FF00FF"
+      "name": "Red Yellow (Yr)",
+      "range": [46, 59],
+      "hsb": [53, 100, 100],
+      "hex": "#FFE100",
+      "_comment": "Transition from Yellow toward Red"
     },
     {
-      "name": "Yellow",
-      "hex": "#FFFF00"
+      "name": "Yellow (Y)",
+      "range": [60, 60],
+      "hsb": [60, 100, 100],
+      "hex": "#FFFF00",
+      "_comment": "Secondary anchor"
+    },
+    {
+      "name": "Green Yellow (Yg)",
+      "range": [61, 75],
+      "hsb": [68, 100, 100],
+      "hex": "#DDFF00",
+      "_comment": "Transition from Yellow toward Green"
+    },
+    {
+      "name": "Green Yellow (YG)",
+      "range": [76, 90],
+      "hsb": [83, 100, 100],
+      "hex": "#9DFF00",
+      "_comment": "Transition from Yellow toward Green"
+    },
+    {
+      "name": "Green Yellow (GY)",
+      "range": [91, 105],
+      "hsb": [98, 100, 100],
+      "hex": "#5EFF00",
+      "_comment": "Transition from Green toward Yellow"
+    },
+    {
+      "name": "Green Yellow (Gy)",
+      "range": [106, 119],
+      "hsb": [113, 100, 100],
+      "hex": "#1EFF00",
+      "_comment": "Transition from Green toward Yellow"
+    },
+    {
+      "name": "Green (G)",
+      "range": [120, 120],
+      "hsb": [120, 100, 100],
+      "hex": "#00FF00",
+      "_comment": "Primary anchor"
+    },
+    {
+      "name": "Green Cyan (Gc)",
+      "range": [121, 135],
+      "hsb": [128, 100, 100],
+      "hex": "#00FF22",
+      "_comment": "Transition from Green toward Cyan"
+    },
+    {
+      "name": "Green Cyan (GC)",
+      "range": [136, 150],
+      "hsb": [143, 100, 100],
+      "hex": "#00FF62",
+      "_comment": "Transition from Green toward Cyan"
+    },
+    {
+      "name": "Green Cyan (CG)",
+      "range": [151, 165],
+      "hsb": [158, 100, 100],
+      "hex": "#00FFA2",
+      "_comment": "Transition from Cyan toward Green"
+    },
+    {
+      "name": "Green Cyan (Cg)",
+      "range": [166, 179],
+      "hsb": [173, 100, 100],
+      "hex": "#00FFE1",
+      "_comment": "Transition from Cyan toward Green"
+    },
+    {
+      "name": "Cyan (C)",
+      "range": [180, 180],
+      "hsb": [180, 100, 100],
+      "hex": "#00FFFF",
+      "_comment": "Secondary anchor"
+    },
+    {
+      "name": "Blue Cyan (Cb)",
+      "range": [181, 195],
+      "hsb": [188, 100, 100],
+      "hex": "#00DDFF",
+      "_comment": "Transition from Cyan toward Blue"
+    },
+    {
+      "name": "Blue Cyan (CB)",
+      "range": [196, 210],
+      "hsb": [203, 100, 100],
+      "hex": "#009DFF",
+      "_comment": "Transition from Cyan toward Blue"
+    },
+    {
+      "name": "Blue Cyan (BC)",
+      "range": [211, 225],
+      "hsb": [218, 100, 100],
+      "hex": "#005EFF",
+      "_comment": "Transition from Blue toward Cyan"
+    },
+    {
+      "name": "Blue Cyan (Bc)",
+      "range": [226, 239],
+      "hsb": [233, 100, 100],
+      "hex": "#001EFF",
+      "_comment": "Transition from Blue toward Cyan"
+    },
+    {
+      "name": "Blue (B)",
+      "range": [240, 240],
+      "hsb": [240, 100, 100],
+      "hex": "#0000FF",
+      "_comment": "Primary anchor"
+    },
+    {
+      "name": "Blue Magenta (Bm)",
+      "range": [241, 255],
+      "hsb": [248, 100, 100],
+      "hex": "#2200FF",
+      "_comment": "Transition from Blue toward Magenta"
+    },
+    {
+      "name": "Blue Magenta (BM)",
+      "range": [256, 270],
+      "hsb": [263, 100, 100],
+      "hex": "#6200FF",
+      "_comment": "Transition from Blue toward Magenta"
+    },
+    {
+      "name": "Blue Magenta (MB)",
+      "range": [271, 285],
+      "hsb": [278, 100, 100],
+      "hex": "#A200FF",
+      "_comment": "Transition from Magenta toward Blue"
+    },
+    {
+      "name": "Blue Magenta (Mb)",
+      "range": [286, 299],
+      "hsb": [293, 100, 100],
+      "hex": "#E100FF",
+      "_comment": "Transition from Magenta toward Blue"
+    },
+    {
+      "name": "Magenta (M)",
+      "range": [300, 300],
+      "hsb": [300, 100, 100],
+      "hex": "#FF00FF",
+      "_comment": "Secondary anchor"
+    },
+    {
+      "name": "Red Magenta (Mr)",
+      "range": [301, 315],
+      "hsb": [308, 100, 100],
+      "hex": "#FF00DD",
+      "_comment": "Transition from Magenta toward Red"
+    },
+    {
+      "name": "Red Magenta (MR)",
+      "range": [316, 330],
+      "hsb": [323, 100, 100],
+      "hex": "#FF009D",
+      "_comment": "Transition from Magenta toward Red"
+    },
+    {
+      "name": "Red Magenta (RM)",
+      "range": [331, 345],
+      "hsb": [338, 100, 100],
+      "hex": "#FF005E",
+      "_comment": "Transition from Red toward Magenta"
+    },
+    {
+      "name": "Red Magenta (Rm)",
+      "range": [346, 359],
+      "hsb": [353, 100, 100],
+      "hex": "#FF001E",
+      "_comment": "Transition from Red toward Magenta"
     }
   ]
 }
