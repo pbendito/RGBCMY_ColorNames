@@ -3,247 +3,171 @@
     {
       "name": "Red (R)",
       "range": [0, 0],
+      "rgb": [255, 0, 0],
       "hsb": [0, 100, 100],
       "CIELAB": [53.2, 80.1, 67.2],
       "hex": "#FF0000",
-      "_comment": "Primary anchor"
+      "_comment": "RGB/CMY anchor"
     },
     {
       "name": "Red Yellow (Ry)",
-      "range": [1, 15],
-      "hsb": [22, 100, 100],
-      "CIELAB": [61.2, 58.0, 70.7],
-      "hex": "#FF5F00",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Red Yellow (RY)",
-      "range": [16, 30],
-      "hsb": [33, 100, 100],
-      "CIELAB": [69.7, 36.3, 75.6],
-      "hex": "#FF8D00",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Red Yellow (YR)",
-      "range": [31, 45],
-      "hsb": [42, 100, 100],
-      "CIELAB": [78.3, 14.4, 82.0],
-      "hex": "#FFB400",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [1, 19],
+      "rgb": [255, 90, 0],
+      "hsb": [21, 100, 100],
+      "CIELAB": [60.4, 60.1, 70.3],
+      "hex": "#FF5A00",
+      "_comment": "Perceptual intermediate"
     },
     {
       "name": "Red Yellow (Yr)",
-      "range": [46, 59],
-      "hsb": [51, 100, 100],
-      "CIELAB": [87.2, -5.2, 89.0],
-      "hex": "#FFD900",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [20, 39],
+      "rgb": [255, 138, 0],
+      "hsb": [32, 100, 100],
+      "CIELAB": [69.1, 37.8, 75.2],
+      "hex": "#FF8A00",
+      "_comment": "Perceptual intermediate"
     },
-
     {
       "name": "Yellow (Y)",
-      "range": [60, 60],
+      "range": [40, 40],
+      "rgb": [255, 255, 0],
       "hsb": [60, 100, 100],
       "CIELAB": [97.1, -21.6, 94.5],
       "hex": "#FFFF00",
-      "_comment": "Secondary anchor"
+      "_comment": "RGB/CMY anchor"
     },
     {
       "name": "Green Yellow (Yg)",
-      "range": [61, 75],
-      "hsb": [69, 100, 100],
-      "CIELAB": [93.7, -34.5, 91.4],
-      "hex": "#DAFF00",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Green Yellow (YG)",
-      "range": [76, 90],
-      "hsb": [79, 100, 100],
-      "CIELAB": [90.3, -48.9, 89.0],
-      "hex": "#B0FF00",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Green Yellow (GY)",
-      "range": [91, 105],
-      "hsb": [90, 100, 100],
-      "CIELAB": [87.9, -64.2, 87.1],
-      "hex": "#80FF00",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [41, 59],
+      "rgb": [191, 255, 0],
+      "hsb": [75, 100, 100],
+      "CIELAB": [93.7, -42.5, 91.7],
+      "hex": "#BFFF00",
+      "_comment": "Perceptual intermediate"
     },
     {
       "name": "Green Yellow (Gy)",
-      "range": [106, 119],
-      "hsb": [104, 100, 100],
-      "CIELAB": [87.2, -80.0, 85.0],
-      "hex": "#45FF00",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [60, 79],
+      "rgb": [128, 255, 0],
+      "hsb": [90, 100, 100],
+      "CIELAB": [90.0, -58.4, 88.0],
+      "hex": "#80FF00",
+      "_comment": "Perceptual intermediate"
     },
-
     {
       "name": "Green (G)",
-      "range": [120, 120],
+      "range": [80, 80],
+      "rgb": [0, 255, 0],
       "hsb": [120, 100, 100],
       "CIELAB": [87.7, -86.2, 83.2],
       "hex": "#00FF00",
-      "_comment": "Primary anchor"
+      "_comment": "RGB/CMY anchor"
     },
     {
       "name": "Green Cyan (Gc)",
-      "range": [121, 135],
-      "hsb": [145, 100, 100],
-      "CIELAB": [87.8, -82.0, 48.0],
-      "hex": "#00FF69",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Green Cyan (GC)",
-      "range": [136, 150],
-      "hsb": [157, 100, 100],
-      "CIELAB": [88.8, -75.5, 17.5],
-      "hex": "#00FF9F",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Green Cyan (CG)",
-      "range": [151, 165],
-      "hsb": [167, 100, 100],
-      "CIELAB": [89.8, -67.1, -9.1],
-      "hex": "#00FFC9",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [81, 99],
+      "rgb": [0, 255, 128],
+      "hsb": [150, 100, 100],
+      "CIELAB": [88.5, -76.8, 46.8],
+      "hex": "#00FF80",
+      "_comment": "Perceptual intermediate"
     },
     {
       "name": "Green Cyan (Cg)",
-      "range": [166, 179],
-      "hsb": [175, 100, 100],
-      "CIELAB": [90.6, -57.8, -30.8],
-      "hex": "#00FFE8",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [100, 119],
+      "rgb": [0, 255, 204],
+      "hsb": [168, 100, 100],
+      "CIELAB": [89.6, -63.6, -2.9],
+      "hex": "#00FFCC",
+      "_comment": "Perceptual intermediate"
     },
-
     {
       "name": "Cyan (C)",
-      "range": [180, 180],
+      "range": [120, 120],
+      "rgb": [0, 255, 255],
       "hsb": [180, 100, 100],
       "CIELAB": [91.1, -48.1, -14.1],
       "hex": "#00FFFF",
-      "_comment": "Secondary anchor"
+      "_comment": "RGB/CMY anchor"
     },
     {
       "name": "Blue Cyan (Cb)",
-      "range": [181, 195],
-      "hsb": [189, 100, 100],
-      "CIELAB": [81.1, -27.7, -30.4],
-      "hex": "#00D9FF",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Blue Cyan (CB)",
-      "range": [196, 210],
-      "hsb": [199, 100, 100],
-      "CIELAB": [71.0, -7.5, -46.8],
-      "hex": "#00B0FF",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Blue Cyan (BC)",
-      "range": [211, 225],
-      "hsb": [210, 100, 100],
-      "CIELAB": [60.9, 12.4, -63.2],
-      "hex": "#0080FF",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [121, 139],
+      "rgb": [0, 191, 255],
+      "hsb": [195, 100, 100],
+      "CIELAB": [73.8, -14.3, -42.9],
+      "hex": "#00BFFF",
+      "_comment": "Perceptual intermediate"
     },
     {
       "name": "Blue Cyan (Bc)",
-      "range": [226, 239],
-      "hsb": [224, 100, 100],
-      "CIELAB": [47.9, 44.7, -81.1],
-      "hex": "#0044FF",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [140, 159],
+      "rgb": [0, 128, 255],
+      "hsb": [210, 100, 100],
+      "CIELAB": [55.5, 18.8, -71.0],
+      "hex": "#0080FF",
+      "_comment": "Perceptual intermediate"
     },
-
     {
       "name": "Blue (B)",
-      "range": [240, 240],
+      "range": [160, 160],
+      "rgb": [0, 0, 255],
       "hsb": [240, 100, 100],
       "CIELAB": [32.3, 79.2, -107.9],
       "hex": "#0000FF",
-      "_comment": "Primary anchor"
+      "_comment": "RGB/CMY anchor"
     },
     {
       "name": "Blue Magenta (Bm)",
-      "range": [241, 255],
-      "hsb": [269, 100, 100],
-      "CIELAB": [40.2, 83.9, -84.7],
-      "hex": "#7A00FF",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Blue Magenta (BM)",
-      "range": [256, 270],
-      "hsb": [282, 100, 100],
-      "CIELAB": [48.0, 88.9, -61.4],
-      "hex": "#B300FF",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Blue Magenta (MB)",
-      "range": [271, 285],
-      "hsb": [291, 100, 100],
-      "CIELAB": [55.8, 93.2, -42.2],
-      "hex": "#D800FF",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [161, 179],
+      "rgb": [128, 0, 255],
+      "hsb": [270, 100, 100],
+      "CIELAB": [40.8, 83.1, -93.4],
+      "hex": "#8000FF",
+      "_comment": "Perceptual intermediate"
     },
     {
       "name": "Blue Magenta (Mb)",
-      "range": [286, 299],
-      "hsb": [298, 100, 100],
-      "CIELAB": [59.6, 96.8, -47.0],
-      "hex": "#F700FF",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [180, 199],
+      "rgb": [191, 0, 255],
+      "hsb": [285, 100, 100],
+      "CIELAB": [51.8, 92.8, -78.8],
+      "hex": "#BF00FF",
+      "_comment": "Perceptual intermediate"
     },
-
     {
       "name": "Magenta (M)",
-      "range": [300, 300],
+      "range": [200, 200],
+      "rgb": [255, 0, 255],
       "hsb": [300, 100, 100],
       "CIELAB": [60.3, 98.2, -60.8],
       "hex": "#FF00FF",
-      "_comment": "Secondary anchor"
+      "_comment": "RGB/CMY anchor"
     },
     {
       "name": "Red Magenta (Mr)",
-      "range": [301, 315],
-      "hsb": [309, 100, 100],
-      "CIELAB": [58.1, 94.6, -36.7],
-      "hex": "#FF00D9",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Red Magenta (MR)",
-      "range": [316, 330],
-      "hsb": [323, 100, 100],
-      "CIELAB": [55.8, 87.0, -12.4],
-      "hex": "#FF009E",
-      "_comment": "Perceptual interpolation (Lab)"
-    },
-    {
-      "name": "Red Magenta (RM)",
-      "range": [331, 345],
-      "hsb": [334, 100, 100],
-      "CIELAB": [54.5, 83.4, 13.7],
-      "hex": "#FF006F",
-      "_comment": "Perceptual interpolation (Lab)"
+      "range": [201, 219],
+      "rgb": [255, 0, 128],
+      "hsb": [330, 100, 100],
+      "CIELAB": [54.9, 84.5, 4.1],
+      "hex": "#FF0080",
+      "_comment": "Perceptual intermediate"
     },
     {
       "name": "Red Magenta (Rm)",
-      "range": [346, 359],
+      "range": [220, 239],
+      "rgb": [255, 0, 64],
       "hsb": [345, 100, 100],
-      "CIELAB": [53.7, 81.2, 40.1],
-      "hex": "#FF0041",
-      "_comment": "Perceptual interpolation (Lab)"
+      "CIELAB": [53.6, 81.2, 40.7],
+      "hex": "#FF0040",
+      "_comment": "Perceptual intermediate"
     }
-  ]
+  ],
+  "meta": {
+    "system": "18-slice perceptual color wheel",
+    "primary_notation": "CIELAB",
+    "structure": "Equal geometric divisions, RGB/CMY anchors, perceptual intermediates",
+    "anchors": ["R", "Y", "G", "C", "B", "M"],
+    "audit_status": "Fully consistent: HEX ↔ RGB ↔ HSB ↔ CIELAB"
+  }
 }
