@@ -147,7 +147,8 @@
   ],
   "meta": {
     "system": "18-name RGBCMY hue naming system",
-"description": "The RGBCMY naming system is composed of six exact RGB/CMY hue anchors, twelve intermediate hue ranges, plus Black, White, and Achromatic handling."    "classification_method": "RGB is converted to HSB. Exact RGB/CMY anchor hues use absolute hue values; all other chromatic hues are classified by intermediate hue ranges.",
+    "description": "The RGBCMY naming system is composed of six exact RGB/CMY hue anchors, twelve intermediate hue ranges, plus Black, White, and Achromatic handling.",
+    "classification_method": "RGB is converted to HSB. Exact RGB/CMY anchor hues use absolute hue values; all other chromatic hues are classified by intermediate hue ranges.",
     "anchors": {
       "R": 0,
       "Y": 60,
