@@ -17,7 +17,7 @@
       "_comment": "Intermediate hue range between Red and Yellow"
     },
     {
-      "name": "Red Yellow (Ry)",
+      "name": "Red Yellow (Yr)",
       "range": [31, 59],
       "hsb": [40, 100, 100],
       "rgb": [255, 170, 0],
