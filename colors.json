@@ -2,154 +2,160 @@
   "colors": [
     {
       "name": "Red (R)",
-      "ranges": [[350, 359], [0, 10]],
+      "hue": 0,
       "hsb": [0, 100, 100],
       "rgb": [255, 0, 0],
       "hex": "#FF0000",
-      "_comment": "RGB primary anchor; hue center 0°"
+      "_comment": "RGB primary anchor; exact hue 0°"
     },
     {
       "name": "Red Yellow (Ry)",
-      "range": [11, 30],
+      "range": [1, 30],
       "hsb": [20, 100, 100],
       "rgb": [255, 85, 0],
       "hex": "#FF5500",
-      "_comment": "Hue center 20°"
+      "_comment": "Intermediate hue range between Red and Yellow"
     },
     {
       "name": "Red Yellow (RY)",
-      "range": [31, 50],
+      "range": [31, 59],
       "hsb": [40, 100, 100],
       "rgb": [255, 170, 0],
       "hex": "#FFAA00",
-      "_comment": "Hue center 40°"
+      "_comment": "Intermediate hue range approaching Yellow"
     },
     {
       "name": "Yellow (Y)",
-      "range": [51, 70],
+      "hue": 60,
       "hsb": [60, 100, 100],
       "rgb": [255, 255, 0],
       "hex": "#FFFF00",
-      "_comment": "CMY secondary anchor; hue center 60°"
+      "_comment": "CMY secondary anchor; exact hue 60°"
     },
     {
       "name": "Green Yellow (Yg)",
-      "range": [71, 90],
+      "range": [61, 90],
       "hsb": [80, 100, 100],
       "rgb": [170, 255, 0],
       "hex": "#AAFF00",
-      "_comment": "Hue center 80°"
+      "_comment": "Intermediate hue range between Yellow and Green"
     },
     {
       "name": "Green Yellow (YG)",
-      "range": [91, 110],
+      "range": [91, 119],
       "hsb": [100, 100, 100],
       "rgb": [85, 255, 0],
       "hex": "#55FF00",
-      "_comment": "Hue center 100°"
+      "_comment": "Intermediate hue range approaching Green"
     },
     {
       "name": "Green (G)",
-      "range": [111, 130],
+      "hue": 120,
       "hsb": [120, 100, 100],
       "rgb": [0, 255, 0],
       "hex": "#00FF00",
-      "_comment": "RGB primary anchor; hue center 120°"
+      "_comment": "RGB primary anchor; exact hue 120°"
     },
     {
       "name": "Green Cyan (Gc)",
-      "range": [131, 150],
+      "range": [121, 150],
       "hsb": [140, 100, 100],
       "rgb": [0, 255, 85],
       "hex": "#00FF55",
-      "_comment": "Hue center 140°"
+      "_comment": "Intermediate hue range between Green and Cyan"
     },
     {
       "name": "Green Cyan (GC)",
-      "range": [151, 170],
+      "range": [151, 179],
       "hsb": [160, 100, 100],
       "rgb": [0, 255, 170],
       "hex": "#00FFAA",
-      "_comment": "Hue center 160°"
+      "_comment": "Intermediate hue range approaching Cyan"
     },
     {
       "name": "Cyan (C)",
-      "range": [171, 190],
+      "hue": 180,
       "hsb": [180, 100, 100],
       "rgb": [0, 255, 255],
       "hex": "#00FFFF",
-      "_comment": "CMY secondary anchor; hue center 180°"
+      "_comment": "CMY secondary anchor; exact hue 180°"
     },
     {
       "name": "Blue Cyan (Cb)",
-      "range": [191, 210],
+      "range": [181, 210],
       "hsb": [200, 100, 100],
       "rgb": [0, 170, 255],
       "hex": "#00AAFF",
-      "_comment": "Hue center 200°"
+      "_comment": "Intermediate hue range between Cyan and Blue"
     },
     {
       "name": "Blue Cyan (CB)",
-      "range": [211, 230],
+      "range": [211, 239],
       "hsb": [220, 100, 100],
       "rgb": [0, 85, 255],
       "hex": "#0055FF",
-      "_comment": "Hue center 220°"
+      "_comment": "Intermediate hue range approaching Blue"
     },
     {
       "name": "Blue (B)",
-      "range": [231, 250],
+      "hue": 240,
       "hsb": [240, 100, 100],
       "rgb": [0, 0, 255],
       "hex": "#0000FF",
-      "_comment": "RGB primary anchor; hue center 240°"
+      "_comment": "RGB primary anchor; exact hue 240°"
     },
     {
       "name": "Blue Magenta (Bm)",
-      "range": [251, 270],
+      "range": [241, 270],
       "hsb": [260, 100, 100],
       "rgb": [85, 0, 255],
       "hex": "#5500FF",
-      "_comment": "Hue center 260°"
+      "_comment": "Intermediate hue range between Blue and Magenta"
     },
     {
       "name": "Blue Magenta (BM)",
-      "range": [271, 290],
+      "range": [271, 299],
       "hsb": [280, 100, 100],
       "rgb": [170, 0, 255],
       "hex": "#AA00FF",
-      "_comment": "Hue center 280°"
+      "_comment": "Intermediate hue range approaching Magenta"
     },
     {
       "name": "Magenta (M)",
-      "range": [291, 310],
+      "hue": 300,
       "hsb": [300, 100, 100],
       "rgb": [255, 0, 255],
       "hex": "#FF00FF",
-      "_comment": "CMY secondary anchor; hue center 300°"
+      "_comment": "CMY secondary anchor; exact hue 300°"
     },
     {
       "name": "Red Magenta (Mr)",
-      "range": [311, 330],
+      "range": [301, 330],
       "hsb": [320, 100, 100],
       "rgb": [255, 0, 170],
       "hex": "#FF00AA",
-      "_comment": "Hue center 320°"
+      "_comment": "Intermediate hue range between Magenta and Red"
     },
     {
       "name": "Red Magenta (MR)",
-      "range": [331, 349],
+      "range": [331, 359],
       "hsb": [340, 100, 100],
       "rgb": [255, 0, 85],
       "hex": "#FF0055",
-      "_comment": "Hue center 340°"
+      "_comment": "Intermediate hue range approaching Red"
     }
   ],
   "meta": {
-    "system": "18-step RGBCMY hue naming system",
-    "classification_method": "RGB converted to HSB; hue angle only determines color name",
-    "geometry": "18 equal hue sectors, 20° each",
-    "anchors": ["R", "Y", "G", "C", "B", "M"],
-    "note": "Saturation and brightness do not affect the hue-family name"
+    "system": "18-name RGBCMY hue naming system",
+    "classification_method": "RGB is converted to HSB. Exact RGB/CMY anchor hues use absolute hue values; all other chromatic hues are classified by intermediate hue ranges.",
+    "anchors": {
+      "R": 0,
+      "Y": 60,
+      "G": 120,
+      "C": 180,
+      "B": 240,
+      "M": 300
+    },
+    "note": "The six RGB/CMY anchors are exact hue values, not ranges. Only the twelve intermediate color names use hue ranges. Saturation and brightness do not change the chromatic hue-family classification. Achromatic colors are handled separately by the application."
   }
 }
