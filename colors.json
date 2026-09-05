@@ -17,7 +17,7 @@
       "_comment": "Intermediate hue range between Red and Yellow"
     },
     {
-      "name": "Red Yellow (RY)",
+      "name": "Red Yellow (Ry)",
       "range": [31, 59],
       "hsb": [40, 100, 100],
       "rgb": [255, 170, 0],
@@ -41,7 +41,7 @@
       "_comment": "Intermediate hue range between Yellow and Green"
     },
     {
-      "name": "Green Yellow (YG)",
+      "name": "Green Yellow (Gy)",
       "range": [91, 119],
       "hsb": [100, 100, 100],
       "rgb": [85, 255, 0],
@@ -65,7 +65,7 @@
       "_comment": "Intermediate hue range between Green and Cyan"
     },
     {
-      "name": "Green Cyan (GC)",
+      "name": "Green Cyan (Cg)",
       "range": [151, 179],
       "hsb": [160, 100, 100],
       "rgb": [0, 255, 170],
@@ -89,7 +89,7 @@
       "_comment": "Intermediate hue range between Cyan and Blue"
     },
     {
-      "name": "Blue Cyan (CB)",
+      "name": "Blue Cyan (Bc)",
       "range": [211, 239],
       "hsb": [220, 100, 100],
       "rgb": [0, 85, 255],
@@ -113,7 +113,7 @@
       "_comment": "Intermediate hue range between Blue and Magenta"
     },
     {
-      "name": "Blue Magenta (BM)",
+      "name": "Blue Magenta (Mb)",
       "range": [271, 299],
       "hsb": [280, 100, 100],
       "rgb": [170, 0, 255],
@@ -137,7 +137,7 @@
       "_comment": "Intermediate hue range between Magenta and Red"
     },
     {
-      "name": "Red Magenta (MR)",
+      "name": "Red Magenta (Rm)",
       "range": [331, 359],
       "hsb": [340, 100, 100],
       "rgb": [255, 0, 85],
