@@ -147,8 +147,7 @@
   ],
   "meta": {
     "system": "18-name RGBCMY hue naming system",
-      "description": "RGBCMY is an 18-name hue classification system based on the RGB/CMY color model. Input RGB values are converted to HSB, and the Hue angle is used to determine the color-family name. The six RGB/CMY anchor colors—Red, Yellow, Green, Cyan, Blue, and Magenta—are defined by exact hue values at 60° intervals. The twelve intermediate color names occupy the hue ranges between these anchors. Saturation and Brightness do not affect the chromatic hue-family name. Black, White, and other achromatic colors are handled separately by the application.",
-    "classification_method": "RGB is converted to HSB. Exact RGB/CMY anchor hues use absolute hue values; all other chromatic hues are classified by intermediate hue ranges.",
+"description": "The RGBCMY naming system is composed of six exact RGB/CMY hue anchors, twelve intermediate hue ranges, plus Black, White, and Achromatic handling."    "classification_method": "RGB is converted to HSB. Exact RGB/CMY anchor hues use absolute hue values; all other chromatic hues are classified by intermediate hue ranges.",
     "anchors": {
       "R": 0,
       "Y": 60,
